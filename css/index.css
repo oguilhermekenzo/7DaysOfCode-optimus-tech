@@ -135,3 +135,64 @@ button#signUp {
     color: var(--text-color);
     font-size: 1.25em;
 }
+
+.vagas__abertas {
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.68em;
+}
+
+.vagas__form {
+    padding: 0 5em;
+}
+
+.vagas__form-vaga {
+    display: flex;
+    flex-direction: column;
+}
+
+.vagas__form-vaga{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 48em;
+}
+
+.form__titulo {
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.form {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    box-sizing: content-box;
+}
+
+.form__content {
+    width: 100%;
+    border: 1px solid #EAECF0;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    font-size: 1.12em;
+    padding: 1.5em 1.5em 1.75em 1.5em;
+}
+
+.content-vaga {
+    font-size: 1.125em;
+}
+
+.content-itens {
+    display: flex;
+    gap: 1.5em;
+    font-size: 1em;
+    color: var(--text-color);
+}
