@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --text-color        : #667085;
+    --text-secund-color : #8e2424;
+    --text-thrid-color  : #101828;
+}
+
+body {
+    background-color: #ffff;
+    font-family: "Inter", Medium;
+}
+
+.navegation {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.navegation__menu a {
+    color: var(--text-color);
+    margin-right: 2rem;
+}
+
+button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.8rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+
+button#signUp {
+    background-color: var(--text-secund-color);
+    color: #fff;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    padding: 6em 0;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.cabecalho h6 {
+    font-size: 1em;
+    color: var(--text-secund-color)
+}
+
+.cabecalho h1 {
+    color: var(--text-thrid-color);
+}
+
+.cabecalho p {
+    color: #667085;
+    font-size: 1.25em;
+}
+
+.metricas__container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+    margin: 0;
+    padding: 0 6em 5em;
+}
+
+.metricas__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+}
+
+.metricas__item h3 {
+    color: var(--text-secund-color);
+    font-size: 3.75em;
+}
+
+.metricas__item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    font-size: 1.12em;
+}
+
+.metricas__item-text span {
+    color: var(--text-thrid-color);
+}
+
+.metricas__item-text p {
+    color: var(--text-color);
+}
+
+.vagas__talentos {
+    padding: 6em 5em 4em 5em;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 4em;
+}
+
+.vagas__talentos-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.vagas__text-cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.vagas__text-cabecalho span {
+    color: var(--text-secund-color);
+    background-color: #8e24240D;
+    align-items: center;
+    border-radius: 1em;
+    font-size: 0.87em;
+    padding: 0.25em 0.75em;
+}
+
+.vagas__text-cabecalho h2 {
+    color: var(--text-thrid-color);
+    font-size: 2em;
+}
+
+.vagas__talentos-text p {
+    color: var(--text-color);
+    font-size: 1.25em;
+}
