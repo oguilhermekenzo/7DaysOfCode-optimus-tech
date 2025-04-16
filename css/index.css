@@ -250,3 +250,59 @@ button#signUp {
     font-size: 0.875em;
     color: var(--text-color);
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    align-items: center;
+}
+
+.footer__text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+    align-items: center;
+}
+
+.footer__text-title {
+    font-size: 2.25em;
+    color: var(--text-thrid-color);
+}
+
+.footer__text-body {
+    font-size: 1.25em;
+    color: var(--text-color);
+}
+
+.footer__email {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}
+
+.footer__envio-email input {
+    width: 22.5em;
+    height: 3em;
+    font-size: 1em;
+    padding: 0.5em;
+    box-sizing: border-box;
+  }
+  
+  .footer__email button {
+    width: 7.25em;
+  }
+
+  .copyright {
+    font-size: 1em;
+    color: var(--text-color);
+    padding: 0 0 6em 0;
+  }
