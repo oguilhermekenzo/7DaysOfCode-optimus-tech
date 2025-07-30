@@ -306,3 +306,90 @@ button#signUp {
     color: var(--text-color);
     padding: 0 0 6em 0;
   }
+
+  @media (max-width: 769px) {
+
+    .cabecalho, .metricas__container {
+        padding: 0 5em;
+    }
+
+    .navegation__menu {
+        display: none;
+    }
+
+    .vagas__form {
+        padding: 0;
+    }
+
+    .vagas__form-vaga {
+        padding: 0 5em;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+button {
+    font-size: 0.6rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.cabecalho h1, p{
+    width: 80vw;
+}
+
+.cabecalho h6 {
+    width: 80vw;
+}
+
+.metricas {
+    display: none;
+}
+
+.vagas__form {
+    padding: 0;
+    width: 100%;
+}
+
+.vagas__form-vaga {
+    padding: 1em;
+    width: 100%;
+}
+
+.testimonials__text p {
+    font-size: 1em;
+    width: 80vw;
+}
+
+.testimonials {
+    padding: 0 0 6em 0;
+}
+
+.testimonials__content {
+    padding: 0 1em;
+}
+
+.footer {
+    width: 100vw;
+}
+
+.footer__container {
+    width: 80vw;
+}
+
+.footer__email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__envio-email input {
+    width: 90vw;
+}
+
+.copyright {
+    padding: 0.5em;
+}
+
+
+}
